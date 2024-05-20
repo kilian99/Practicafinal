@@ -2,4 +2,4 @@
 
 ---
 
-{{site.title}}
+#{{site.title}}
