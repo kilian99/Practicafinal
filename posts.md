@@ -1,6 +1,12 @@
 ---
-title: "Posts by Me"
-layout: categories
-permalink: /posts/
-author_profile: true
+layout: default
+
 ---
+
+
+{% for real in site.data.realmadrid  %}
+   {{ real.nombre}}  tiene {{real.edad}} años
+
+
+
+{% endfor %}
