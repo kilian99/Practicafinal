@@ -7,7 +7,7 @@
 
 # Hola Mundo
 
-Bienvenidos al archivo `hola.md`. Aquí estamos probando algunas funcionalidades básicas de Markdown.
+Bienvenidos al archivo `hola.md`. Aquí estoy probando algunas funcionalidades básicas.
 
 ## Formateo de texto
 
@@ -19,33 +19,33 @@ En Markdown, puedes hacer:
 
 ## Listas
 
-### Lista no ordenada
+### Leyendas Real Madrid
 
-- Elemento 1
-- Elemento 2
-  - Subelemento 2.1
-  - Subelemento 2.2
+- CR7
+- Zidane
+- Kroos
+- Di Estefano
 
-### Lista ordenada
+### Mejores jugadores de la actualidad
 
-1. Primer elemento
-2. Segundo elemento
-   1. Subelemento 1
-   2. Subelemento 2
+1. Vini Jr
+2. Jude Bellingham
+3. Kroos
+4. Lunin
 
 ## Enlaces e Imágenes
 
 [Google](https://www.google.com)
 
-![Imagen Ejemplo](url_de_la_imagen_aqui)
+![Imagen Ejemplo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.uefa.com%2Fuefachampionsleague%2Fnews%2F0271-143ec32ce0bf-e49f27166da1-1000--los-jugadores-con-mas-champions-league%2F&psig=AOvVaw2l_rcaL9tSumE0a300xNF9&ust=1716878737628000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODT7vudrYYDFQAAAAAdAAAAABAE)
 
-## Citas
+## Libros
 
-> Esto es una cita.
+> MIL OJOS ESCONDE LA NOCHE
 >
-> - Con un autor
+> - JUAN MANUEL DE PRADA
 
-## Código
+## Prueba
 
 ```python
 print("Hola, mundo!")
