@@ -37,7 +37,7 @@ En Markdown, puedes hacer:
 
 [Google](https://www.google.com)
 
-![Imagen Ejemplo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.uefa.com%2Fuefachampionsleague%2Fnews%2F0271-143ec32ce0bf-e49f27166da1-1000--los-jugadores-con-mas-champions-league%2F&psig=AOvVaw2l_rcaL9tSumE0a300xNF9&ust=1716878737628000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODT7vudrYYDFQAAAAAdAAAAABAE)
+![Imagen Ejemplo](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/10413/production/_100697566_hi045932006.jpg)
 
 ## Libros
 
