@@ -13,9 +13,9 @@ Bienvenidos al archivo `hola.md`. Aquí estoy probando algunas funcionalidades b
 
 En Markdown, puedes hacer:
 
-- **Negrita** con `**texto**`
-- *Itálica* con `*texto*`
-- ~~Tachado~~ con `~~texto~~`
+- **Negrita** con `**Hola**`
+- *Itálica* con `*Hola*`
+- ~~Tachado~~ con `~~Hola~~`
 
 ## Listas
 
