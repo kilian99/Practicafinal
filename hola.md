@@ -1,5 +1,6 @@
 ---
-
+title: hola
+permalink: /
 ---
 
 # {{site.title}}
@@ -16,12 +17,7 @@
   {% endfor %}
 </ul>
 
-
-# Hola Mundo
-
-Bienvenidos al archivo `hola.md`. Aquí estoy probando algunas funcionalidades básicas.
-
-## Formateo de texto
+# Formateo de texto
 
 En Markdown, puedes hacer:
 
@@ -46,6 +42,10 @@ En Markdown, puedes hacer:
 4. Lunin
 
 ## Enlaces e Imágenes
+
+[Prueba](index.html)
+
+[Jugadores](madrid.md)
 
 [Google](https://www.google.com)
 
