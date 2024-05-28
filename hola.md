@@ -16,7 +16,6 @@
   {% endfor %}
 </ul>
 
-
 ### Artistas nuevos
 
 - Hecky
