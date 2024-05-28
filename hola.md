@@ -4,14 +4,7 @@
 
 # {{site.title}}
 
-## Welcome to {{site.title}} {{page.title}} 
-<ul>
-{% for page in site.pages %}
-  <li>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+
 
 # Posts sobre artistas
 
