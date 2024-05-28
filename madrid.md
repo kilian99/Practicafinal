@@ -5,9 +5,9 @@ layout: default
 
 <table style="width: 60%; border: 1px solid black; border-collapse: collapse;">
    <tr>
-      <th style="border: 1px solid; padding: 10px;">Nombre</th>
-      <th style="border: 1px solid; padding: 10px;">Edad</th>
-      <th style="border: 1px solid; padding: 10px;">Titulos</th>
+      <th style="border: 1px solid; padding: 10px;">**Nombre**</th>
+      <th style="border: 1px solid; padding: 10px;">**Edad**</th>
+      <th style="border: 1px solid; padding: 10px;">**Titulos**</th>
    </tr>
 
    {% for real in site.data.realmadrid  %}
