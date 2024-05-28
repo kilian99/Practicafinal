@@ -26,37 +26,44 @@ En Markdown, puedes hacer:
 
 ## Listas
 
-### Leyendas Real Madrid
+### Artistas nuevos
 
-- CR7
-- Zidane
-- Kroos
-- Di Estefano
+- Hecky
+- yyy891
+- Mvrk
+- Jhon Pollon
 
-### Mejores jugadores de la actualidad
+### Artistas con mas oyentes mensuales
 
-1. Vini Jr
-2. Jude Bellingham
-3. Kroos
-4. Lunin
+1. Quevedo
+2. Omar Montes
+3. Kidd Keo
+4. Yung Beef
 
 ## Enlaces e Imágenes
 
 [Prueba](index.html)
 
-[Jugadores](madrid.md)
+[Artistas](musica.md)
 
 [Google](https://www.google.com)
 
-![Imagen Ejemplo](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/10413/production/_100697566_hi045932006.jpg)
+![Imagen Ejemplo](https://okdiario.com/img/2019/10/14/mejores-frases-de-amador-rivas.jpg)
 
-## Libros
+## Canciones recomendadas
 
-> MIL OJOS ESCONDE LA NOCHE
+> Hecky Time
 >
-> - JUAN MANUEL DE PRADA
+> - Hecky
 
-## Prueba
+> 41Paimon
+>
+> - Gloosito
 
-```python
-print("Hola, mundo!")
+> No es lo mio
+>
+> - Jhon Pollon
+
+> Celine
+>
+> - Kidd Keo
