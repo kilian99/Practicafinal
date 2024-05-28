@@ -7,12 +7,14 @@ layout: default
    <tr>
       <th style="border: 1px solid; padding: 10px;">Nombre</th>
       <th style="border: 1px solid; padding: 10px;">Edad</th>
+      <th style="border: 1px solid; padding: 10px;">Titulos</th>
    </tr>
 
    {% for real in site.data.realmadrid  %}
    <tr>
       <th style="border: 1px solid; padding: 10px;">{{ real.nombre}} </th>  
       <th style="border: 1px solid; padding: 10px;">{{real.edad}} </th>
+      <th style="border: 1px solid; padding: 10px;">{{real.titulos}} </th>
    </tr>
    {% endfor %}
 
