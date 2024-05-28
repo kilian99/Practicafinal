@@ -16,15 +16,6 @@
   {% endfor %}
 </ul>
 
-## Formateo de texto
-
-En Markdown, puedes hacer:
-
-- **Negrita** con `**Hola**`
-- *Itálica* con `*Hola*`
-- ~~Tachado~~ con `~~Hola~~`
-
-## Listas
 
 ### Artistas nuevos
 
@@ -52,18 +43,18 @@ En Markdown, puedes hacer:
 
 ## Canciones recomendadas
 
-> Hecky Time
+> [Hecky Time](https://www.youtube.com/watch?v=sx-TvzVOzx8)
 >
-> - Hecky
+> - [Hecky](https://www.youtube.com/@Heckytheboss)
 
-> 41Paimon
+> [41Paimon](https://www.youtube.com/watch?v=I5BGIPwu-BQ)
 >
-> - Gloosito
+> - [Gloosito](https://www.youtube.com/@gloosito_ctds)
 
-> No es lo mio
+> [No es lo mio](https://www.youtube.com/watch?v=sV677Zw8sLA)
 >
-> - Jhon Pollon
+> - [Jhon Pollon](https://www.youtube.com/channel/UCubce_wkXtTBszxBPoDYb6Q)
 
-> Celine
+> [Celine](https://www.youtube.com/watch?v=5M2tSEQsnN4)
 >
-> - Kidd Keo
+> - [Kidd Keo](https://www.youtube.com/@YKMGOfficial)
