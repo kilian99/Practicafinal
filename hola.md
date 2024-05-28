@@ -16,7 +16,7 @@
   {% endfor %}
 </ul>
 
-# Formateo de texto
+## Formateo de texto
 
 En Markdown, puedes hacer:
 
