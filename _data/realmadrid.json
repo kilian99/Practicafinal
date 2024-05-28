@@ -1,5 +1,5 @@
 [
-    { "nombre": "Jude", "edad": 19, "titulos": "3" },
+    { "nombre": "Jude", "edad": 19, "titulos": "3", "imagen": "https://phantom-marca.unidadeditorial.es/c9ae6e77f4d401c3d4baf01e175bd9fe/resize/828/f/jpg/assets/multimedia/imagenes/2023/11/17/17002330380570.jpg" },
     { "nombre": "Kepa", "edad": 29, "titulos": "4" },
     { "nombre": "Rodrygo", "edad": 23, "titulos": "16" },
     { "nombre": "Vinicius", "edad": 23, "titulos": "18" },
