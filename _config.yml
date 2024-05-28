@@ -1,110 +1,84 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.subtitle }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Artists
-subtitle: My prefer artist
-author: Kilian
-description: >
-  Here is my website. This description will appear in the meta
-  data on the site and in the feed.xml site description.
+description: Best Spanish Music
+baseurl: "/blog"
+timezone: Asia/Kolkata
+sidebar_repository_limit: 3
+publication_date: 2022
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 5
+  sort_field: 'date'
+  sort_reverse: true
 
-# git edit capabilities
-baseurl: /JasonGaylord.com
-remote_theme: jasongaylord/SpaacedOut
-git:
-#  host: https://github.com/
-  repository: jasongaylord/SpaacedOut
-  branch: gh-pages
+# Uncomment the line below if you use this theme as a GitHub Page's remote theme.
+remote_theme: Akash-Sharma-1/blog
 
-# pagination and permalink
-show_excerpts: true
-paginate: 5
-page_group_size: 5
-paginate_path: "/blog/page/:num"
-permalink: /blog/:year/:month/:day/:title
-
-# content expansion
-content:
-  head-s: false
-#  header-s: false
-# Since GitHub Pages targets Jekyll 3.8 and not Jekyll 4, we are limited on loading includes in
-# dynamically. Hopefully they change it in the future. So, the commented out blocks below are 
-# for future usage. Since they'll never be true, the Jekyll processor will skip these. If
-# and when these are allowed, I'll post in the Theme README how to safely "upgrade."
-#  head-suffix: head-suffix.html  
-#  header-suffix: header-suffix.html
-
-# contact
-contact: 
-#  avatar-image: /assets/images/avatar.png
-#  email: email@gmail.com # Uncomment if you want feedback via email (it will expose your email)
-#  url: https://domain.com/contact.html # Uncomment if you want to provide a contact form
-
-# social links (uncomment the links you'd like to include and)
+# Author settings
+author: Akash Sharma
+organization: IIIT Delhi
+location: New Delhi, India
 social:
-#  facebook: jekyll
-#  github: jekyll
-#  instagram: jekyll
-#  linkedin: jekyll
-#  mastodonUser: jekyll
-#  mastodonServer: tech.social
-#  pinterest: jekyll
-#  stackoverflow: "11111"
-#  twitter: jekyllrb
-#  youtube: jekyll
+  github: Akash-Sharma-1
 
-google:
-#  analytics: UA-NNNNNNNN-N
-#  adsense: ca-pub-NNNNNNNNNNNNNNNN
+# Comments settings (https://utteranc.es/)
+# You must use your own repository, otherwise it won't work.
+comments_repository: Akash-Sharma-1/Utteranc-Comments-Repo-Blog
 
-rss: rss
-# The site generates a feed at /feed.xml. Uncomment below to override
-# feed:
-#   path: /myfeed.xml
+# Google Analytics settings (https://analytics.google.com/)
+ga_measurement_id: G-W1GFNLSVY2
 
-# comments
-comments:
-#  enabled: false
-#  show_count: false
-#  disqus_shortname: jekyll
-
-# front matter
+# Build settings (https://help.github.com/en/articles/configuring-jekyll)
+# If you use this theme as a Github Pages's remote theme, you don't need to edit the
+# content below, but still need to keep it in your blog's _config.yml.
+collections:
+  wiki:
+    output: true
+navigation:
+  - name: Home
+    link: /
+  - name: Classification
+    link: /classification/
+  - name: Leetcode
+    link: /leetcode/
+  - name: About Me
+    link: /about/
+  - name: Portfolio
+    link: https://akash-sharma-1.github.io/
 defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
+  - scope:
+      path: pages
+    values:
+      layout: default
+  - scope:
+      path: _posts
     values:
       layout: post
-      comments: true
-  -
-    scope:
-      path: "pages"
-      type: "pages"
+  - scope:
+      path: _leetcode
     values:
-      layout: page
-      comments: false
-  -
-    scope:
-      path: "assets/pages"
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-
-#Kramdown Configuration      
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
+      layout: post
+sass:
+  style: compressed
 plugins:
-  - jekyll-avatar
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
+  - rouge
