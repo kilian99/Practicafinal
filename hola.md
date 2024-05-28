@@ -1,6 +1,5 @@
 ---
-title: hola
-permalink: /
+
 ---
 
 # {{site.title}}
