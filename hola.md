@@ -4,7 +4,7 @@
 
 # {{site.title}}
 
-# Posts
+# Posts sobre artistas
 
 <ul>
   {% for post in site.posts %}
