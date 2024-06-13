@@ -36,6 +36,8 @@
 
 [Artistas](musica.md)
 
+[Gente](gente.md)
+
 [Google](https://www.google.com)
 
 ![Imagen Ejemplo](https://okdiario.com/img/2019/10/14/mejores-frases-de-amador-rivas.jpg)
